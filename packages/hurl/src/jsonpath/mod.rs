@@ -38,14 +38,14 @@
 //! - `$['*']` selects the element with key '*'. It is different from `$[*]` which selects all elements
 //! - `$['.']` selects the element with key '.'.
 //!
-//! The dot notation is usually more readable the the bracket notation
+//! The dot notation is usually more readable the bracket notation
 //! but it is more limited in terms of allowed characters.
 //! The following characters are allowed:
 //!   - alphanumeric
 //!   - _ (underscore)
 //!
 //! Filters can be applied to element of an array with the `?(@.key PREDICATE)` notation.
-//! The key can can specify one or more levels.
+//! The key can specify one or more levels.
 //! For example, `.price.US` specify field 'US' in an object for the field price.
 //! The predicate if not present just checks the key existence.
 //!

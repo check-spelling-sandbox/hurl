@@ -574,7 +574,7 @@ jsonpath "$.slideshow.slides[*].title" includes "Mind Blowing!"
 > one node is selected.
 
 In `matches` predicates, metacharacters beginning with a backslash (like `\d`, `\s`) must be escaped.
-Alternatively, `matches` predicate support [Javascript-like Regular expression syntax] to enhance
+Alternatively, `matches` predicate support [JavaScript-like Regular expression syntax] to enhance
 the readability:
 
 ```hurl
@@ -682,7 +682,7 @@ certificate "Serial-Number" matches "[0-9af]+"
 Optional assertion on the received HTTP response body. Body section can be seen
 as syntactic sugar over [body asserts] (with `equals` predicate function). If the
 body of the response is a [JSON] string or a [XML] string, the body assertion can
-be directly inserted without any modification. For a text based body that is not JSON nor XML,
+be directly inserted without any modification. For a text based body that is neither JSON nor XML,
 one can use multiline string that starts with <code>&#96;&#96;&#96;</code> and ends
 with <code>&#96;&#96;&#96;</code>. For a precise byte control of the response body,
 a [Base64] encoded string or an input file can be used to describe exactly
@@ -849,7 +849,7 @@ of all file nodes.
 [XML]: https://en.wikipedia.org/wiki/XML
 [Base64]: https://en.wikipedia.org/wiki/Base64
 [`--file-root` option]: /docs/manual.md#file-root
-[Javascript-like Regular expression syntax]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+[JavaScript-like Regular expression syntax]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 [MD5]: https://en.wikipedia.org/wiki/MD5
 [SHA-256]: https://en.wikipedia.org/wiki/SHA-2
 [options]: /docs/request.md#options
